@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4806
+
+This script detects system verilog files, does indents, and syntax highlighting.
+
+
+This is the \\\\\\\"bug fix\\\\\\\" version of \\\\\\\"verilog_systemverilog.vim\\\\\\\" vimscript #1586 created by Amit Sethi.
+
+With this fixed version, the key \\\\\\\"%\\\\\\\" (matchit.vim) works for Verilog/SystemVerilog files, which doesn\\\\\\&#039t work for the original version.
+
+
+
+New features and changes since branch
+
+Added folding expression:
+Currently folds functions, tasks
+
+Added matchit words for matchit.vim
+
+github: https://github.com/cazador481/vim-systemverilog
